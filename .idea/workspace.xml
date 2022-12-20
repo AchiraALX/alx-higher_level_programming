@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0055a5f5-799f-45a4-a9d3-3496d1301eb7" name="Changes" comment="Complete resolving conflict">
-      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02-python-import_modules/magic_calculation_102.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x05-python-exceptions/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/alx-higher_level_programming.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/alx-higher_level_programming.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0055a5f5-799f-45a4-a9d3-3496d1301eb7" name="Changes" comment="Update files">
+      <change beforePath="$PROJECT_DIR$/.idea/codestream.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x00-python-hello_world/101-compile" beforeDir="false" afterPath="$PROJECT_DIR$/0x00-python-hello_world/101-compile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01-python-if_else_loops_functions/10-add.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x01-python-if_else_loops_functions/10-add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01-python-if_else_loops_functions/12-fizzbuzz.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x01-python-if_else_loops_functions/12-fizzbuzz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x02-python-import_modules/102-magic_calculation.py" beforeDir="false" afterPath="$PROJECT_DIR$/0x02-python-import_modules/102-magic_calculation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x05-python-exceptions/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/0x05-python-exceptions/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +77,7 @@
       <workItem from="1671474459360" duration="1098000" />
       <workItem from="1671475646850" duration="1003000" />
       <workItem from="1671495545627" duration="1639000" />
-      <workItem from="1671497389354" duration="1453000" />
+      <workItem from="1671497389354" duration="2285000" />
     </task>
     <task id="LOCAL-00001" summary="Complete resolving conflict">
       <created>1670567589126</created>
@@ -116,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670567671194</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update files">
+      <created>1671499181310</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671499181310</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +133,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Complete resolving conflict" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete resolving conflict" />
+    <MESSAGE value="Update files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update files" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/alx_higher_level_programming$102_magic_calculation.coverage" NAME="102-magic_calculation Coverage Results" MODIFIED="1671476029475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x02-python-import_modules" />
