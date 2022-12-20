@@ -55,12 +55,12 @@
 - Returns a new list (length = `list_length`) with all divisions
 - If 2 elements can't be divided, the division result should be equal to 0
 - If an element is not an integer or float:
-  - print: `wrong type`
-  - If the division can't be done (/0):
-    - print: `division by 0`
-    - If my_list_1 or my_list_2 is too short
-      - print: `out of range`
-      - You have to use `try: / except: / finally:`
+	- print: `wrong type`
+	- If the division can't be done (/0):
+		- print: `division by 0`
+		- If my_list_1 or my_list_2 is too short
+			- print: `out of range`
+			- You have to use `try: / except: / finally:`
 - You are not allowed to `import` any module
 
 ## 5. A function that raises a type exception.
@@ -96,78 +96,78 @@
 - Write the Python function `def magic_calculation(a, b):` that does exactly the same as the following Python bytecode:
 
 `python
-  3           0 LOAD_CONST               1 (0)
-              3 STORE_FAST               2 (result)
+3           0 LOAD_CONST               1 (0)
+3 STORE_FAST               2 (result)
 
-  4           6 SETUP_LOOP              94 (to 103)
-              9 LOAD_GLOBAL              0 (range)
-             12 LOAD_CONST               2 (1)
-             15 LOAD_CONST               3 (3)
-             18 CALL_FUNCTION            2 (2 positional, 0 keyword pair)
-             21 GET_ITER
-        >>   22 FOR_ITER                77 (to 102)
-             25 STORE_FAST               3 (i)
+4           6 SETUP_LOOP              94 (to 103)
+9 LOAD_GLOBAL              0 (range)
+12 LOAD_CONST               2 (1)
+15 LOAD_CONST               3 (3)
+18 CALL_FUNCTION            2 (2 positional, 0 keyword pair)
+21 GET_ITER
+>>   22 FOR_ITER                77 (to 102)
+25 STORE_FAST               3 (i)
 
-  5          28 SETUP_EXCEPT            49 (to 80)
+5          28 SETUP_EXCEPT            49 (to 80)
 
-  6          31 LOAD_FAST                3 (i)
-             34 LOAD_FAST                0 (a)
-             37 COMPARE_OP               4 (>)
-             40 POP_JUMP_IF_FALSE       58
+6          31 LOAD_FAST                3 (i)
+34 LOAD_FAST                0 (a)
+37 COMPARE_OP               4 (>)
+40 POP_JUMP_IF_FALSE       58
 
-  7          43 LOAD_GLOBAL              1 (Exception)
-             46 LOAD_CONST               4 ('Too far')
-             49 CALL_FUNCTION            1 (1 positional, 0 keyword pair)
-             52 RAISE_VARARGS            1
-             55 JUMP_FORWARD            18 (to 76)
+7          43 LOAD_GLOBAL              1 (Exception)
+46 LOAD_CONST               4 ('Too far')
+49 CALL_FUNCTION            1 (1 positional, 0 keyword pair)
+52 RAISE_VARARGS            1
+55 JUMP_FORWARD            18 (to 76)
 
-  9     >>   58 LOAD_FAST                2 (result)
-             61 LOAD_FAST                0 (a)
-             64 LOAD_FAST                1 (b)
-             67 BINARY_POWER
-             68 LOAD_FAST                3 (i)
-             71 BINARY_TRUE_DIVIDE
-             72 INPLACE_ADD
-             73 STORE_FAST               2 (result)
-        >>   76 POP_BLOCK
-             77 JUMP_ABSOLUTE           22
+9     >>   58 LOAD_FAST                2 (result)
+61 LOAD_FAST                0 (a)
+64 LOAD_FAST                1 (b)
+67 BINARY_POWER
+68 LOAD_FAST                3 (i)
+71 BINARY_TRUE_DIVIDE
+72 INPLACE_ADD
+73 STORE_FAST               2 (result)
+>>   76 POP_BLOCK
+77 JUMP_ABSOLUTE           22
 
- 10     >>   80 POP_TOP
-             81 POP_TOP
-             82 POP_TOP
+10     >>   80 POP_TOP
+81 POP_TOP
+82 POP_TOP
 
- 11          83 LOAD_FAST                1 (b)
-             86 LOAD_FAST                0 (a)
-             89 BINARY_ADD
-             90 STORE_FAST               2 (result)
+11          83 LOAD_FAST                1 (b)
+86 LOAD_FAST                0 (a)
+89 BINARY_ADD
+90 STORE_FAST               2 (result)
 
- 12          93 BREAK_LOOP
-             94 POP_EXCEPT
-             95 JUMP_ABSOLUTE           22
-             98 END_FINALLY
-             99 JUMP_ABSOLUTE           22
-        >>  102 POP_BLOCK
+12          93 BREAK_LOOP
+94 POP_EXCEPT
+95 JUMP_ABSOLUTE           22
+98 END_FINALLY
+99 JUMP_ABSOLUTE           22
+>>  102 POP_BLOCK
 
- 13     >>  103 LOAD_FAST                2 (result)
-            106 RETURN_VALUE
+13     >>  103 LOAD_FAST                2 (result)
+106 RETURN_VALUE
 `
 
 ## 10. CPython #2: PyFloatObject
 
 - Create three C functions that print some basic info about Python lists, Python bytes an Python float objects.
 - Python lists:
-  - Prototype: `void print_python_list(PyObject *p);`
-  - Format: see example
-  - If p is not a valid PyListObject, print an error message (see example)
+	- Prototype: `void print_python_list(PyObject *p);`
+	- Format: see example
+	- If p is not a valid PyListObject, print an error message (see example)
 - Python bytes:
 - Prototype: `void print_python_bytes(PyObject *p);`
 - Format: see example
 - If p is not a valid PyBytesObject, print an error message (see example)
 - Python float:
-  - Prototype: `void print_python_float(PyObject *p);`
-  - Format: see example
-  - If p is not a valid PyFloatObject, print an error message (see example)
-  - Read /usr/include/python3.4/floatobject.h
+	- Prototype: `void print_python_float(PyObject *p);`
+	- Format: see example
+	- If p is not a valid PyFloatObject, print an error message (see example)
+	- Read /usr/include/python3.4/floatobject.h
 
 
 The python script will be launched using the -u option (Force stdout to be unbuffered).
