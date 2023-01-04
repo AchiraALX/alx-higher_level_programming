@@ -193,70 +193,124 @@ What does this script print?
 ## 19. Copy a list object
 
 Write a function def copy_list(l): that returns a copy of a list.
+- The input list can contain any type of objects
+- Your file should be maximum 3-line long (no documentation needed)
+- You are not allowed to import any module
 
 ## 20. Tuple or not?
 
-Write a function def is_same_class(obj, a_class): that returns True if the object is exactly an instance of the specified class ; otherwise False.
+a = ()
+
+Is a a tuple or not? Answer with Yes or No.
 
 ## 21. Tuple or not?
 
-Write a function def is_kind_of_class(obj, a_class): that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
+a = (1, 2)
 
-## 22. Only sub class of
+Is a a tuple or not? Answer with Yes or No.
 
-Write a function def inherits_from(obj, a_class): that returns True if the object is an instance of a class that inherited (directly or indirectly) from the specified class ; otherwise False.
+## 22. Tuple or not?
 
-## 23. Same class or inherit from
+a = (1)
 
-Write a function def is_kind_of_class(obj, a_class): that returns True if the object is an instance of, or if the object is an instance of a class that inherited from, the specified class ; otherwise False.
+Is a a tuple or not? Answer with Yes or No.
 
-## 24. Object is instance
+## 23. Tuple or not?
 
-Write a function def is_same_class(obj, a_class): that returns True if the object is exactly an instance of the specified class ; otherwise False.
+a = (1,)
 
-## 25. Object is instance
+Is a a tuple or not? Answer with Yes or No.
 
-Write a function def is_same_class(obj, a_class): that returns True if the object is exactly an instance of the specified class ; otherwise False.
+## 24. Who I am?
 
-## 26. Object with filter
+What does this script print?
 
-Write a function def multiply_by_2(my_dict): that returns a new dictionary with all values multiplied by 2
+```
+a = (1)
+b = (1)
+a is b
+```
 
-## 27. Locked class
+## 25. Tuple or not?
 
-Write a function def multiply_by_2(my_dict): that returns a new dictionary with all values multiplied by 2
+a = (1, 2)
+b = (1, 2)
 
-## 28. Locked class
+## 26. Empty is not empty
 
-Write a function def multiply_by_2(my_dict): that returns a new dictionary with all values multiplied by 2
+What does this script print?
 
-## 29. Maximum recursion depth
+```
+>>> a = ()
+> >> b = ()
+> >> a is b
+```
 
-Write a function def pascal_triangle(n): that returns a list of lists of integers representing the Pascal’s triangle of n:
+## 27. Still the same?
 
-## 30. Palindrome
+>>> id(a)
+139926795932424
+>>> a
+[1, 2, 3, 4]
+>>> a = a + [5]
+>>> id(a)
+Will the last line of this script print 139926795932424? Answer with Yes or No.
 
-Write a function def is_palindrome(word): that returns True if the word is a palindrome, otherwise return False.
+## 28. Same or not?
 
-## 31. Search and replace
+>>> id(a)
+139926795932424
+>>> a
+[1, 2, 3, 4]
+>>> a += [5]
+>>> id(a)
+Will the last line of this script print 139926795932424? Answer with Yes or No.
 
-Write a function def search_replace(my_list, search, replace): that replaces all occurrences of an element by another in a new list.
+## 29. #pythonic
 
-## 32. Unique addition
+Write a function magic_string() that returns a string “BestSchool” n times the number of the iteration (see code):
 
-Write a function def uniq_add(my_list=[]): that adds all unique integers in a list (only once for each integer).
+	Format: see example
+	Your file should be maximum 4-line long (no documentation needed)
+	You are not allowed to import any module
 
-## 33. Present in both
+## 30. Low memory cost
 
-Write a function def common_elements(set_1, set_2): that returns a set of common elements in two sets.
+Write a class LockedClass with no class or object attribute, that prevents the user from dynamically creating new instance attributes, except if the new instance attribute is called first_name.
 
-## 34. Only differents
+You are not allowed to import any module
 
-Write a function def only_diff_elements(set_1, set_2): that returns a set of all elements present in only one set.
+## 31. int 1/3
 
-## 35. Number of keys
+Assuming we are using a CPython implementation of Python3 with default options/configuration:
 
-Write a function def number_keys(a_dictionary): that returns the number of keys in a dictionary.
+How many int objects are created by the execution of the first line of the script? (103-line1.txt)
+How many int objects are created by the execution of the second line of the script (103-line2.txt)
 
+## 32. int 2/3
 
+Assuming we are using a CPython implementation of Python3 with default options/configuration:
+
+How many int objects are created by the execution of the first line of the script? (104-line1.txt)
+How many int objects are created by the execution of the second line of the script (104-line2.txt)
+After the execution of line 3, is the int object pointed by a deleted? Answer with Yes or No (104-line3.txt)
+After the execution of line 4, is the int object pointed by b deleted? Answer with Yes or No (104-line4.txt)
+How many int objects are created by the execution of the last line of the script (104-line5.txt)
+
+## 33. int 3/3
+
+Assuming we are using a CPython implementation of Python3 with default options/configuration:
+
+Before the execution of line 2 (print("Love")), how many int objects have been created and are still in memory? (105-line1.txt)
+Why? (optional blog post :))
+
+## 34. Clear strings
+
+Assuming we are using a CPython implementation of Python3 with default options/configuration (For answers with numbers use integers, don’t spell out the word):
+
+How many string objects are created by the execution of the first line of the script? (106-line1.txt)
+How many string objects are created by the execution of the second line of the script (106-line2.txt)
+After the execution of line 3, is the string object pointed by a deleted? Answer with Yes or No (106-line3.txt)
+After the execution of line 4, is the string object pointed by b deleted? Answer with Yes or No (106-line4.txt)
+How many string objects are created by the execution of the last line of the script (106-line5.txt)
 
