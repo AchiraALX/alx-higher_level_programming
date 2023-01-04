@@ -47,7 +47,7 @@ class Square:
         self.__position = value
 
     def __repr__(self):
-        return (self.get_str())
+        return self.get_str()
 
     def area(self):
         return self.__size * self.__size
