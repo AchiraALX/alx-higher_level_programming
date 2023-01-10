@@ -103,7 +103,7 @@ A class `Square` that inherits from `Rectangle` (9-rectangle.py). (task based on
 ### 12. My integer
 
 A class `MyInt` that inherits from `int`:
-
+[1-my_list.py](..%2F..%2FArchive%2Fholbertonschool-higher_level_programming%2F0x0A-python-inheritance%2F1-my_list.py)
 - `MyInt` is a rebel. `MyInt` has `==` and `!=` operators inverted
 - You are not allowed to import any module
 
