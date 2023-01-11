@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62a8958d-4a49-4df6-9889-c95ff0752252" name="Changes" comment="Create README.md">
+      <change afterPath="$PROJECT_DIR$/.idea/alx-higher_level_programming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/0-read_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/1-number_of_lines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/2-read_lines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/3-write_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/4-append_write.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/5-to_json_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/6-from_json_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/7-save_to_json_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/8-load_from_json_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/9-add_item.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x0B-python-input_output/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/.editorconfig" previewFile="$APPLICATION_HOME_DIR$/plugins/python/helpers/typeshed/stdlib/builtins.pyi" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JA46YwwV3PELhPOCG3EG0mqaCT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ADMIN/Desktop/alx-higher_level_programming/0x0A-python-inheritance/tests&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Python&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\alx-higher_level_programming\0x0A-python-inheritance\tests" />
+      <recent name="C:\Users\ADMIN\Desktop\Archive\holbertonschool-higher_level_programming\0x0A-python-inheritance\tests" />
+      <recent name="C:\Users\ADMIN\Desktop\alx-higher_level_programming" />
+      <recent name="C:\Users\ADMIN\Desktop\alx-higher_level_programming\0x09-python-everything_is_object" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\alx-higher_level_programming\0x07-python-test_driven_development" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="All in generated-requests" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.All in generated-requests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62a8958d-4a49-4df6-9889-c95ff0752252" name="Changes" comment="" />
+      <created>1671507390158</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671507390158</updated>
+      <workItem from="1671507397487" duration="4497000" />
+      <workItem from="1671579849691" duration="91000" />
+      <workItem from="1671580184742" duration="599000" />
+      <workItem from="1671581438757" duration="4514000" />
+      <workItem from="1671868363652" duration="345000" />
+      <workItem from="1671876958555" duration="826000" />
+      <workItem from="1671947634970" duration="586000" />
+      <workItem from="1672867795009" duration="1601000" />
+      <workItem from="1672871933354" duration="8529000" />
+      <workItem from="1672939898589" duration="593000" />
+      <workItem from="1672986131327" duration="736000" />
+      <workItem from="1673314813122" duration="11193000" />
+      <workItem from="1673370425086" duration="1874000" />
+    </task>
+    <task id="LOCAL-00001" summary="Create README.md">
+      <created>1671581799176</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671581799176</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Create README.md">
+      <created>1671582629604</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1671582629604</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Create README.md">
+      <created>1672872971093</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672872971093</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Create README.md">
+      <created>1672874034561</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874034561</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Create 0-answer.txt">
+      <created>1672874237112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874237112</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Create 1-answer.txt">
+      <created>1672874262587</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874262587</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Create 2-answer.txt">
+      <created>1672874276956</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874276956</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Create 3-answer.txt">
+      <created>1672874289676</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874289676</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Create 4-answer.txt">
+      <created>1672874303441</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874303441</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Create 5-answer.txt">
+      <created>1672874320809</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874320809</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Create 6-answer.txt">
+      <created>1672874371721</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874371721</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Create 7-answer.txt">
+      <created>1672874385917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874385917</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Create 8-answer.txt">
+      <created>1672874400528</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874400528</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Create 9-answer.txt">
+      <created>1672874416882</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874416882</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Create 10-answer.txt">
+      <created>1672874430949</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874430949</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Create 11-answer.txt">
+      <created>1672874442774</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874442774</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Create 12-answer.txt">
+      <created>1672874461809</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874461809</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Create 13-answer.txt">
+      <created>1672874474431</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874474431</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Create 14-answer.txt">
+      <created>1672874491377</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874491377</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Create 15-answer.txt">
+      <created>1672874508365</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874508365</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Create 16-answer.txt">
+      <created>1672874525946</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874525946</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Create 17-answer.txt">
+      <created>1672874540709</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874540709</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Create 18-answer.txt">
+      <created>1672874583574</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874583574</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Create 19-copy_list.py">
+      <created>1672874616469</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874616469</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Create 20-answer.txt">
+      <created>1672874639149</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874639149</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Create 21-answer.txt">
+      <created>1672874659218</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874659218</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Create 22-answer.txt">
+      <created>1672874692966</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874692966</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Create 23-answer.txt">
+      <created>1672874741898</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874741898</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Create 24-answer.txt">
+      <created>1672874777317</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874777317</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Create 25-answer.txt">
+      <created>1672874792750</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874792750</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Create 26-answer.txt">
+      <created>1672874811366</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874811366</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Create 27-answer.txt">
+      <created>1672874902904</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874902904</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Create 28-answer.txt">
+      <created>1672874999834</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1672874999834</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Create 100-magic_string.py">
+      <created>1672875042725</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875042725</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Create 103-line1.txt">
+      <created>1672875078760</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875078760</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Create 103-line2.txt">
+      <created>1672875096303</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875096303</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Create 104-line1.txt">
+      <created>1672875132180</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875132180</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Create 104-line2.txt">
+      <created>1672875152523</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875152523</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Create 104-line3.txt">
+      <created>1672875179195</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875179195</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Create 104-line4.txt">
+      <created>1672875209007</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875209007</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Create 104-line5.txt">
+      <created>1672875232153</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875232153</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Create 106-line1.txt">
+      <created>1672875648450</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875648450</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Create 106-line2.txt">
+      <created>1672875668115</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875668115</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Create 106-line3.txt">
+      <created>1672875688355</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875688355</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Create 106-line4.txt">
+      <created>1672875717959</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875717959</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Create 106-line5.txt">
+      <created>1672875734063</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1672875734063</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Create README.md">
+      <created>1672878117197</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1672878117197</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Create README.md">
+      <created>1672878254834</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1672878254834</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Create 18-answer.txt" />
+    <MESSAGE value="Create 19-copy_list.py" />
+    <MESSAGE value="Create 20-answer.txt" />
+    <MESSAGE value="Create 21-answer.txt" />
+    <MESSAGE value="Create 22-answer.txt" />
+    <MESSAGE value="Create 23-answer.txt" />
+    <MESSAGE value="Create 24-answer.txt" />
+    <MESSAGE value="Create 25-answer.txt" />
+    <MESSAGE value="Create 26-answer.txt" />
+    <MESSAGE value="Create 27-answer.txt" />
+    <MESSAGE value="Create 28-answer.txt" />
+    <MESSAGE value="Create 100-magic_string.py" />
+    <MESSAGE value="Create 103-line1.txt" />
+    <MESSAGE value="Create 103-line2.txt" />
+    <MESSAGE value="Create 104-line1.txt" />
+    <MESSAGE value="Create 104-line2.txt" />
+    <MESSAGE value="Create 104-line3.txt" />
+    <MESSAGE value="Create 104-line4.txt" />
+    <MESSAGE value="Create 104-line5.txt" />
+    <MESSAGE value="Create 106-line1.txt" />
+    <MESSAGE value="Create 106-line2.txt" />
+    <MESSAGE value="Create 106-line3.txt" />
+    <MESSAGE value="Create 106-line4.txt" />
+    <MESSAGE value="Create 106-line5.txt" />
+    <MESSAGE value="Create README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create README.md" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/alx_higher_level_programming$0_main.coverage" NAME="0-main Coverage Results" MODIFIED="1673317438193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x0A-python-inheritance" />
+    <SUITE FILE_PATH="coverage/alx_higher_level_programming$4_main.coverage" NAME="4-main Coverage Results" MODIFIED="1673318751697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x0A-python-inheritance" />
+    <SUITE FILE_PATH="coverage/alx_higher_level_programming$2_main.coverage" NAME="2-main Coverage Results" MODIFIED="1673318322828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x0A-python-inheritance" />
+    <SUITE FILE_PATH="coverage/alx_higher_level_programming$3_main.coverage" NAME="3-main Coverage Results" MODIFIED="1673318571578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/0x0A-python-inheritance" />
+  </component>
+</project>
