@@ -1,13 +1,11 @@
 #!/usr/bin/python3
-"""Fetches https://alx-intranet.hbtn.io/status"""
-
+# Use requests package to make a get request to given URL
 import requests
-import sys
-
 
 if __name__ == "__main__":
-    url = sys.argv[1]
-    response = requests.get(url)
+    url = "https://intranet.hbtn.io/status"
+    r = requests.get(url)
     print("Body response:")
-    print("\t- type: {}".format(type(response.text)))
-    print("\t- content: {}".format(response.text))
+    print("\t- type: {}".format(type(r.text)))
+    print("\t- content: {}".format(r.text))
+    
