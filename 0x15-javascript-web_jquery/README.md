@@ -39,7 +39,7 @@ HEADER to “New Header!!!” when the user clicks on DIV#update_header
 ## 7-script.js
 
 A Javascript script that fetches and replaces the name of
-this URL: https://swapi-api.hbtn.io/api/people/5/?format=json
+this URL: https://swapi-api.alx-tools.com/api/people/5/?format=json
 
 ## 8-script.js
 
